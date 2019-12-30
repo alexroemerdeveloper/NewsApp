@@ -10,12 +10,17 @@
 		6FD28E9823BA75050085256D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28E9723BA75050085256D /* AppDelegate.swift */; };
 		6FD28E9A23BA75050085256D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28E9923BA75050085256D /* SceneDelegate.swift */; };
 		6FD28E9D23BA75050085256D /* NewsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28E9B23BA75050085256D /* NewsApp.xcdatamodeld */; };
-		6FD28E9F23BA75050085256D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28E9E23BA75050085256D /* ContentView.swift */; };
+		6FD28E9F23BA75050085256D /* NewsFeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28E9E23BA75050085256D /* NewsFeedView.swift */; };
 		6FD28EA123BA75070085256D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD28EA023BA75070085256D /* Assets.xcassets */; };
 		6FD28EA423BA75070085256D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FD28EA323BA75070085256D /* Preview Assets.xcassets */; };
 		6FD28EA723BA75070085256D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FD28EA523BA75070085256D /* LaunchScreen.storyboard */; };
 		6FD28EB223BA75070085256D /* NewsAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28EB123BA75070085256D /* NewsAppTests.swift */; };
 		6FD28EBD23BA75070085256D /* NewsAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28EBC23BA75070085256D /* NewsAppUITests.swift */; };
+		6FD28ECB23BA75BB0085256D /* NewsFeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28ECA23BA75BB0085256D /* NewsFeedItemView.swift */; };
+		6FD28ECD23BA75DB0085256D /* NewsFeedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28ECC23BA75DB0085256D /* NewsFeedModel.swift */; };
+		6FD28ECF23BA75FF0085256D /* NewsFeedListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28ECE23BA75FF0085256D /* NewsFeedListItem.swift */; };
+		6FD28ED123BA76780085256D /* UrlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28ED023BA76780085256D /* UrlImageView.swift */; };
+		6FD28ED323BA768E0085256D /* UrlImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FD28ED223BA768E0085256D /* UrlImageModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +45,7 @@
 		6FD28E9723BA75050085256D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6FD28E9923BA75050085256D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6FD28E9C23BA75050085256D /* NewsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NewsApp.xcdatamodel; sourceTree = "<group>"; };
-		6FD28E9E23BA75050085256D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6FD28E9E23BA75050085256D /* NewsFeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedView.swift; sourceTree = "<group>"; };
 		6FD28EA023BA75070085256D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FD28EA323BA75070085256D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6FD28EA623BA75070085256D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		6FD28EB823BA75070085256D /* NewsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NewsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FD28EBC23BA75070085256D /* NewsAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAppUITests.swift; sourceTree = "<group>"; };
 		6FD28EBE23BA75070085256D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FD28ECA23BA75BB0085256D /* NewsFeedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedItemView.swift; sourceTree = "<group>"; };
+		6FD28ECC23BA75DB0085256D /* NewsFeedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedModel.swift; sourceTree = "<group>"; };
+		6FD28ECE23BA75FF0085256D /* NewsFeedListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedListItem.swift; sourceTree = "<group>"; };
+		6FD28ED023BA76780085256D /* UrlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageView.swift; sourceTree = "<group>"; };
+		6FD28ED223BA768E0085256D /* UrlImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlImageModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +113,8 @@
 			children = (
 				6FD28E9723BA75050085256D /* AppDelegate.swift */,
 				6FD28E9923BA75050085256D /* SceneDelegate.swift */,
-				6FD28E9E23BA75050085256D /* ContentView.swift */,
+				6FD28ED423BA77AA0085256D /* Views */,
+				6FD28ED523BA77B80085256D /* Models */,
 				6FD28EA023BA75070085256D /* Assets.xcassets */,
 				6FD28EA523BA75070085256D /* LaunchScreen.storyboard */,
 				6FD28EA823BA75070085256D /* Info.plist */,
@@ -137,6 +148,26 @@
 				6FD28EBE23BA75070085256D /* Info.plist */,
 			);
 			path = NewsAppUITests;
+			sourceTree = "<group>";
+		};
+		6FD28ED423BA77AA0085256D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6FD28E9E23BA75050085256D /* NewsFeedView.swift */,
+				6FD28ECA23BA75BB0085256D /* NewsFeedItemView.swift */,
+				6FD28ED023BA76780085256D /* UrlImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6FD28ED523BA77B80085256D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6FD28ECC23BA75DB0085256D /* NewsFeedModel.swift */,
+				6FD28ECE23BA75FF0085256D /* NewsFeedListItem.swift */,
+				6FD28ED223BA768E0085256D /* UrlImageModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,8 +303,13 @@
 			files = (
 				6FD28E9823BA75050085256D /* AppDelegate.swift in Sources */,
 				6FD28E9A23BA75050085256D /* SceneDelegate.swift in Sources */,
-				6FD28E9F23BA75050085256D /* ContentView.swift in Sources */,
+				6FD28ECD23BA75DB0085256D /* NewsFeedModel.swift in Sources */,
+				6FD28E9F23BA75050085256D /* NewsFeedView.swift in Sources */,
+				6FD28ECF23BA75FF0085256D /* NewsFeedListItem.swift in Sources */,
 				6FD28E9D23BA75050085256D /* NewsApp.xcdatamodeld in Sources */,
+				6FD28ED123BA76780085256D /* UrlImageView.swift in Sources */,
+				6FD28ECB23BA75BB0085256D /* NewsFeedItemView.swift in Sources */,
+				6FD28ED323BA768E0085256D /* UrlImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
